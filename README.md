@@ -8,6 +8,7 @@ Click [here](http://onet.pl) to open Pyfolio web page.
 `technologies used:`
 `Python`
 `Streamlit`
+`pandas`
 
 `version 1.0`
 
