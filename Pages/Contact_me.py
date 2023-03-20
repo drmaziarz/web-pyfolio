@@ -1,5 +1,3 @@
-import webbrowser
-
 import streamlit as st
 
 from functions import send_email, validate_email
