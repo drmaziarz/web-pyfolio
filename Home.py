@@ -12,6 +12,7 @@ def get_datails():
 
 
 st.set_page_config(layout="wide",
+                   initial_sidebar_state="expanded",
                    page_title='PyFolio | Dorota Maziarz',
                    page_icon='🐍',
                    menu_items={
