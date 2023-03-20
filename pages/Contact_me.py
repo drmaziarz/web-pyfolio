@@ -20,7 +20,7 @@ with st.form(key="email_forms"):
 Subject: PYFOLIO: New email from {user_email}
 
 From: {user_email}
-{raw_message.decode('utf-8')}"""
+{raw_message}"""
     button = st.form_submit_button("Submit")
     if button:
         if validate_email(user_email):
