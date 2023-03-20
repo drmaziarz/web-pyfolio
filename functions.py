@@ -11,6 +11,7 @@ def send_email(message):
 
     username = "dr.maziarz@gmail.com"
     password = st.secrets["password"]
+    # To run app locally, uncomment below line and set environmental variable
     # password = os.getenv("PASSWORD")
 
     receiver = "dr.maziarz@gmail.com"

@@ -34,7 +34,8 @@ with col2:
     Welcome to my Pyfolio web!
     This web showcases some of my most notable projects, as well as provides basic information
     about me and my experience. If you have any questions or would like to discuss a potential cooperation, please
-    don't hesitate to reach out to me. Below you can find some of the apps I have built in Python.
+    don't hesitate to reach out to me (you can do it via Contact me tab!). 
+    Below you can find some of the apps I have built in Python.
     """
     st.info(content)
 
