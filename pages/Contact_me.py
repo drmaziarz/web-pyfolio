@@ -15,7 +15,7 @@ st.title("Contact me")
 
 with st.form(key="email_forms"):
     user_email = st.text_input("Your email address")
-    raw_message = st.text_area("Your message")
+    raw_message = st.text_area("Your message").encode()
     message = f"""\
 Subject: PYFOLIO: New email from {user_email}
 
