@@ -13,21 +13,24 @@ st.set_page_config(layout="wide",
 
 st.title("Contact me")
 
-with st.form(key="email_forms"):
-    user_email = st.text_input("Your email address")
-    raw_message = st.text_area("Your message")
-    message = f"""\
-Subject: PYFOLIO: New email from {user_email}
-
-From: {user_email}
-{raw_message}"""
-    button = st.form_submit_button("Submit")
-    if button:
-        if validate_email(user_email):
-            if raw_message == '':
-                st.warning("Please, enter your message!")
+try:
+    with st.form(key="email_forms"):
+        user_email = st.text_input("Your email address")
+        raw_message = st.text_area("Your message")
+        message = f"""\
+    Subject: PYFOLIO: New email from {user_email}
+    
+    From: {user_email}
+    {raw_message}"""
+        button = st.form_submit_button("Submit")
+        if button:
+            if validate_email(user_email):
+                if raw_message == '':
+                    st.warning("Please, enter your message!")
+                else:
+                    send_email(message)
+                    st.success("Your email was sent successfully")
             else:
-                send_email(message)
-                st.success("Your email was sent successfully")
-        else:
-            st.error("Please enter a valid email address.")
+                st.error("Please enter a valid email address.")
+except UnicodeEncodeError:
+    st.warning("Please, use valid signs!")
