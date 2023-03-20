@@ -10,7 +10,7 @@ def send_email(message):
     port = 465
 
     username = "dr.maziarz@gmail.com"
-    password = st.secrects["password"]
+    password = st.secrets["password"]
     # password = os.getenv("PASSWORD")
 
     receiver = "dr.maziarz@gmail.com"
