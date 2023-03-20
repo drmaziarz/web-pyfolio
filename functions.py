@@ -9,7 +9,7 @@ def send_email(message):
     port = 465
 
     username = "dr.maziarz@gmail.com"
-    password = os.getenv("PASSWORD")
+    # password = os.getenv("PASSWORD")
 
     receiver = "dr.maziarz@gmail.com"
     context = ssl.create_default_context()
