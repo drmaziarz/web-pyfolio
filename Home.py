@@ -45,9 +45,9 @@ col3, empty, col4 = st.columns([1.5, 0.1, 1.5])
 df = pd.read_csv("data.csv", sep=";")
 
 with col3:
-    for index, row in df[:3].iterrows():
+    for index, row in df[:4].iterrows():
         get_datails()
 
 with col4:
-    for index, row in df[3:].iterrows():
+    for index, row in df[4:].iterrows():
         get_datails()
