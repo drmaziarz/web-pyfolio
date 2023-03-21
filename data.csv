@@ -6,3 +6,4 @@ PDF Invoices;A script that reads invoice records from Excel files and automatica
 News to email;A website that gets data from a news API and sends an email with articles about certain topic.;https://github.com/drmaziarz/news-api-email;5.png
 AstroPic;Astronomy picture of the day - using NASA Open APIs.;https://github.com/drmaziarz/web-astropic;21.png
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/drmaziarz/weather-api;6.png
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://pythonhow.com;16.png
