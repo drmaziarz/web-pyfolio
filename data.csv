@@ -1,9 +1,9 @@
 title;description;url;image
 PyFolio;A website built entirely in Python to showcase coding projects and apps.;https://github.com/drmaziarz/web-pyfolio;2.png
 AstroPic;Astronomy picture of the day - using NASA Open APIs.;https://github.com/drmaziarz/web-astropic;21.png
-News to email;A website that gets data from a news API and sends an email with articles about certain topic.;https://github.com/drmaziarz/news-api-email;5.png
+News to email;A website that gets data from a news API and sends an email with articles.;https://github.com/drmaziarz/news-api-email;5.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/drmaziarz/excel-to-pdf;4.png
-Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/drmaziarz/weather-forecast;16.png
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/drmaziarz/weather-api;6.png
+Weather Forecast;A data web app that visualizes the weather forecast for the next five days.;https://github.com/drmaziarz/weather-forecast;16.png
+Weather API;A REST API built with Python and Flask to serve historical weather data.;https://github.com/drmaziarz/weather-api;6.png
 TaskMate;A minimalistic task application that helps you keep track of your tasks.;https://github.com/drmaziarz/web-task-mate;1.png
 Desktop todo app;A simple desktop todo app.;https://github.com/drmaziarz/desktop-todo-app;1.png

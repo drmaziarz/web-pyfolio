@@ -3,10 +3,8 @@ import streamlit as st
 
 
 def get_datails():
-    # title = row["title"]
     st.markdown(f'<h2 style="text-align: center;">{row["title"]}</h1>', unsafe_allow_html=True)
     st.markdown(f'<p style="text-align: center;">{row["description"]}</p>', unsafe_allow_html=True)
-    # st.write(row["description"])
     st.image(f"images/{row['image']}")
     st.markdown(f"[Source code]({row['url']})")
 
@@ -28,17 +26,15 @@ with col1:
         st.image("images/photo2.jpg")
 
 with col2:
-    # st.title("Dorota Maziarz")
     st.markdown("<h1 style='text-align: center;'>Dorota Maziarz</h1>", unsafe_allow_html=True)
     content = """
     Welcome to my Pyfolio web!
     This web showcases some of my most notable projects, as well as provides basic information
     about me and my experience. If you have any questions or would like to discuss a potential cooperation, please
-    don't hesitate to reach out to me (you can do it via Contact me tab!). 
-    Below you can find some of the apps I have built in Python.
+    don't hesitate to reach out to me (you can do it via Contact me tab). 
+    Below you can find some of the apps I have built in Python. This page is constantly growing!
     """
     st.info(content)
-
 
 col3, empty, col4 = st.columns([1.5, 0.1, 1.5])
 
