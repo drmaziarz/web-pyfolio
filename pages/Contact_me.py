@@ -30,6 +30,7 @@ try:
                 else:
                     send_email(message)
                     st.success("Your email was sent successfully")
+                    st.form(key="email_forms").clear()
             else:
                 st.error("Please enter a valid email address.")
 except UnicodeEncodeError:
