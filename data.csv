@@ -1,5 +1,6 @@
 title;description;url;image
 PyFolio;A website built entirely in Python to showcase coding projects and apps.;https://github.com/drmaziarz/web-pyfolio;2.png
+CampusData;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://github.com/drmaziarz/student-management-system;17.png
 AstroPic;Astronomy picture of the day - using NASA Open APIs.;https://github.com/drmaziarz/web-astropic;21.png
 News to email;A website that gets data from a news API and sends an email with articles.;https://github.com/drmaziarz/news-api-email;5.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/drmaziarz/excel-to-pdf;4.png
